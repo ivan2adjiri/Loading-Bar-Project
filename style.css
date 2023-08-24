@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.counter{
+    font-size: 38px;
+
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 7.8px;
+    background-color: lightcyan;
+    width: 100%;
+    border-radius: 4.8px;
+    border: none;
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 7.8px;
+    background-color: red;
+    width: 10%;
+    border-radius: 4.8px;
+    border: none;
+}
